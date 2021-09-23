@@ -1,4 +1,6 @@
-//*@author Saif Shahin 
+/*@author Saif Shahin
+ * This program concerts positive integers into a target base set by the user.
+ */
 
 import java.util.Scanner;
 
