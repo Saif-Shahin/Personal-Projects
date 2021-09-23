@@ -1,6 +1,9 @@
-//*@author Saif Shahin 
-//This file acts the same way as sortBuffer.java, but written in c.
-//Date Created: 16/4/2021
+/*
+ *Author: Saif Shahin 
+ *This file acts the same way as sortBuffer.java, but written in c.
+ *Date Created: 16/4/2021
+ *
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
