@@ -1,7 +1,10 @@
-//*@author Saif Shahin 
-//This file acts the same way as bTree.java, however it is written in c.
-//It also prints from an array rather than directly to console output.
-//Date Created: 16/4/2021
+/*
+ *Author: Saif Shahin 
+ *This file acts the same way as bTree.java, however it is written in c.
+ *It also prints from an array rather than directly to console output.
+ *Date Created: 16/4/2021
+ *
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -148,4 +151,3 @@ void deleteTree() { //deletes nodes as it goes along the postOrder traversal.
 int getNumNodes() { //function to get the value of numNodes.
 	return numNodes;
 }
-
