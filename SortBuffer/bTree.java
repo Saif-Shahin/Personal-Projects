@@ -1,9 +1,11 @@
 
-//*@author Saif Shahin 
+/**@author Saif Shahin 
+ * This class implements a bianary tree data structure.
+ *
+ */
 
 import acm.program.ConsoleProgram;
 
-//Note: This code was inspired by McGIll ECSE 202 Lecture and tutorial notes,
 
 public class bTree {
 	ConsoleProgram display;
