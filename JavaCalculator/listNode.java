@@ -1,5 +1,5 @@
 /* @Author: Saif Shahin
-*  This class impliments the linked list data structure.
+*  This class implements the linked list data structure.
 *  This code was inspired by ECSE 202 lecture notes (McGill University)
 */
 
