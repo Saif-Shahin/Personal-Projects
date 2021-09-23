@@ -1,0 +1,57 @@
+/*
+ * bTree.h
+ *
+ * Created on: Nov. 15, 2020
+ * Updated on: Mar. 28, 2021 // Changes to match A2, Winter 2021
+ *     Author: ferrie
+ *
+ */
+
+
+// Any program that uses the bTree class must include "bTree.h" to access the
+// object template for bNode and the corresponding function (method)
+// definitions.
+#include <stdio.h>
+#include <stdlib.h>
+#ifndef BTREE_H_
+#define BTREE_H_
+
+//Parameters
+
+#define false 0
+#define true !false
+
+//Structure templates
+
+typedef struct bN {
+	char *data; //pointer to string
+
+	//left and right succesors
+	struct bN *left;
+	struct bN *right;
+
+} bNode;
+
+// Prototypes: The signature for each method (function) is defined here so
+// that the compiler can check against a formal definition.
+
+void initTree(); //initializes the bTree
+
+void addNode(char *data); //adds a new node to the bTree
+
+bNode* makeNode(char *data); //function that allocates a bNode
+
+char** makeSortIndex(char arg); //returns an array of pointers to strings in sort order
+
+void inOrder(bNode *root); // The recursive function that performs inOrder traversal
+
+void inReverseOrder(bNode *root); // Same as InOrder with order of recursion reversed
+
+void deleteTree(); // Deletes the bTree (all allocated nodes)
+
+void postOrder(bNode *root); // Post order traversal used to delete tree nodes
+
+int getNumNodes(); // Getter returns the number of nodes in the tree.
+
+#endif /* BTREE_H_ */
+
