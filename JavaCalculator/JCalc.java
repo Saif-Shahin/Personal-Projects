@@ -1,5 +1,4 @@
 /* @Author: Saif Shahin
-*  McGill ID: 260964749
 * This is a test program to ensure that the implementation of the postFix class works successfully.
 */
 
