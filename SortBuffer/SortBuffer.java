@@ -1,6 +1,6 @@
 /**@author Saif Shahin 
- * This class provides the user interface for the SortBuffer program, which uses a 
- * binary tree and recursion to sort inputted text alphabetically.
+ * This class provides the user interface for the SortBuffer program. The SortBuffer program implements a 
+ * binary tree data structure and recursion to sort inputted text both in alphabetical and reverse alphabetical order.
  */
  
 import acm.program.ConsoleProgram;
