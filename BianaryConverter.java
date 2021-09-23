@@ -1,4 +1,4 @@
-//*@author Saif Shahin (McGill Student ID: 260964749)
+//*@author Saif Shahin 
 
 import java.util.Scanner;
 
