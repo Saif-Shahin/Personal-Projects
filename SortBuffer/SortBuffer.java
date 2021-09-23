@@ -1,11 +1,15 @@
-//*@author Saif Shahin 
+/**@author Saif Shahin 
+ * This class provides the user interface for the SortBuffer program, which uses a 
+ * binary tree and recursion to sort inputted text alphabetically.
+ */
+ 
 import acm.program.ConsoleProgram;
 
 public class SortBuffer extends ConsoleProgram {
 
 	public void run() {
 		// Introduction to program, instructs user.
-		print("Text Sorting Program: (ECSE 202 - Assignment 2)\nEnter text to be sorted, line by line. A blank line terminates.\nYou can cut and paste text into this window:\n");
+		print("Text Sorting Program:\nEnter text to be sorted, line by line. A blank line terminates.\nYou can cut and paste text into this window:\n");
 
 		bTree b = new bTree();// Creates an instance of bTree class
 		b.setDisplay(this);// Calls the setDisplay method in the bTree class for successful applet
